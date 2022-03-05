@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height: 100vh;
+    padding: 0 34vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:flex-start;
+}
+
+h1{
+    padding-top: 10vh;
+}
+
+h1,h2{
+    width:30vw;
+    text-align: center;
+}
+
+div{
+    width:30vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.click-btn, .reset-btn, .click2-btn, .add-btn{
+    font-size: 1.4rem;
+    padding: 1ch;
+    border-radius: 0.5rem;
+}
+
+.click-btn{
+    background-color: hsl(152, 74%, 74%);
+}
+
+.reset-btn{
+    background-color: hsl(2, 86%, 72%);
+}
+
+.click2-btn{
+    background-color: hsl(200, 67%, 77%);
+}
+
+.input-box{
+    width:6.5vw;
+    height: 5vh;
+    padding: 0.8rem;
+    border: 0.1rem solid black;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    text-align: right;
+}
+
+.input-box::placeholder{
+    color:gray;  
+    font-size: 1.4rem;
+    text-align: right;
+}
+
+.add-btn{
+    background-color: antiquewhite;
+}
